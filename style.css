@@ -1,0 +1,580 @@
+body{
+   margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+
+/* the navbar element  */
+
+.navbar{
+   display: flex;
+   padding-top: 10px;
+   justify-content:space-between;
+   box-shadow: 0px 2px 20px 0px rgba(94, 98, 101, 0.2);
+   position:sticky;
+   top: 0px;
+   background-color: #fff;
+}
+.googlelogo{
+   margin-left: 15px;
+   margin-top: 4px;
+}
+.leftnavbar{
+   display: flex;
+}
+.leftnavbar h2{
+   font-family: 'Noto Sans Display', sans-serif;
+   margin-right: 30px;
+   margin-left: 30px;
+   margin-top: 7px;
+   color: #5f6368;
+   font-size: 22px;
+   font-weight: 400;
+}
+.leftnavbar p{
+   color: #5e6267;
+   font-family: 'Noto Sans Display', sans-serif;
+   margin-right: 30px;
+   font-size: 15px;
+}
+.navbartwo{
+   text-decoration: underline;
+   text-decoration-color:#1a73e8;
+   text-decoration-thickness: 2px;
+   text-underline-offset:22px ;
+}
+.navbarthree:hover .afterhover{
+   display:inline;
+}
+.afterhover{
+   display: none;
+   position: absolute;
+   overflow: auto;
+   box-shadow: 0px 2px 20px 0px rgba(94, 98, 101, 0.2);
+   text-align: center;
+   margin-top: 6px;
+}
+.afterhover div{
+   margin-bottom: 10px;
+   padding-left: 40px;
+   padding-right: 10px;
+}
+.uparrow{
+   display:none;
+}
+.navbarthree:hover .uparrow{
+   display: inline;
+}
+.navbarthree:hover .downarrow{
+   display: none;
+}
+
+.rightnavbar{
+   margin-right: 10px;
+}
+
+.rightnavbar{
+   display: flex;
+}
+.forhover{
+   margin-left: 10px;
+}
+
+.navbarsix p{
+   font-family: 'Noto Sans Display', sans-serif;
+   color: #1a73e8;
+   margin-right: 15px;
+}
+
+
+
+
+/* The first square element  */
+
+.oneone{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.standout{
+    margin-top: 120px;
+    margin-right: 660px;
+}
+#oneonepic{
+    height: 580px;
+    margin-top: 85px;
+}
+.standout h2{
+font-family: 'Noto Sans Display', sans-serif;
+ font-weight: 400;
+ font-size: 46px;
+ color: #202124;
+}
+.standout p{
+    color: #5e6267;
+    font-family: 'Noto Sans Display', sans-serif;
+    margin-bottom: 40px;
+}
+.buttonmanage{
+    height: 50px ;
+    width: 160px ;
+    background-color: #1a73e8 ;
+    color:#fff ;
+    font-weight:500;
+    border: solid 1px #1a73e8 ;
+    border-radius: 6px;
+    font-family: 'Noto Sans Display', sans-serif;
+    font-size: 14px;
+}
+
+
+
+
+.onetwo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.free{
+    margin-right: 120px;
+}
+.easy{
+   margin-right: 120px;
+}
+.freeone{
+   display: flex;
+   justify-content: center;
+}
+.freebutton{
+   height:50px ;
+   width:50px ;
+   background-color:#1a73e8 ;
+   border: solid 1px #1a73e8;
+   border-radius: 40px;
+}
+.freeicon{
+   color: #fff;
+   font-size: 25px;
+}
+.onetwo h3{
+   font-family: 'Noto Sans Display', sans-serif;
+   font-weight: 500;
+}
+.onetwo p{
+    color:#5e6267;
+    font-family: 'Noto Sans Display', sans-serif;
+    margin-top: -1px;
+}
+.freetwo{
+    display: flex;
+    justify-content: center;
+}
+.easytwo{
+    display: flex;
+    justify-content: center;
+}
+.easythree{
+    text-align: center;
+}
+.persontwo{
+    display: flex;
+    justify-content: center;
+}
+.easybutton{
+   background-color:#fbbc04 ;
+   border: solid 1px #fbbc04  ;
+}
+.personabutton{
+   background-color: #34a853;
+   border: solid 1px #34a853;
+}
+
+
+.onethree{
+   margin-bottom:40px ;
+}
+.onethree h3{
+   font-family: 'Noto Sans Display', sans-serif;
+   font-size: 35px;
+   font-weight:400 ;
+}
+.onethree p{
+   color:#5e6267;
+   font-family: 'Noto Sans Display', sans-serif;
+   margin-top: -20px;
+   font-size: 16px;
+}
+.onethreepicture{
+    display: flex;
+    justify-content: center;
+}
+#onethreepicture{
+   height: 140px;
+   margin-bottom: 30px;
+}
+.takecharge{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.onefour{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.onefour h4{
+   font-family: 'Noto Sans Display', sans-serif;
+   font-size: 20px;
+   font-weight:500 ;
+}
+.onefour p{
+   color:#5e6267;
+    font-family: 'Noto Sans Display', sans-serif;
+}
+.essentialone p{
+    color: #5e6267;  
+}
+.essential{
+    margin-right: 400px;
+    margin-top: 140px;
+    margin-bottom: 30px;
+}
+.essential div{
+   margin-bottom: 60px;
+}
+#floatingpic{
+    height: 600px;
+}
+.managebutton{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+
+.connect h3{
+   font-family: 'Noto Sans Display', sans-serif;
+   font-size: 35px;
+   font-weight:400 ;
+}
+.connect p{
+   color:#5e6267;
+   font-family: 'Noto Sans Display', sans-serif;
+   margin-top:-20px ;
+}
+.connect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.onesix{
+    display: flex;
+    justify-content: center;
+}
+.onesix h4{
+   font-family: 'Noto Sans Display', sans-serif;
+   font-size: 20px;
+   font-weight:500 ;
+}
+.onesix p{
+   color:#5e6267;
+   font-family: 'Noto Sans Display', sans-serif;
+   font-weight: 300;
+}
+.picthree{
+    margin-right: 120px;
+}
+#picthree{
+    height: 600px;
+    margin-top: 40px ;
+
+}
+.createposts{
+    margin-top: 150px;
+}
+.oneseven{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+#oneseven{
+   height: 130px;
+}
+
+
+
+  /* the second square element  */
+
+
+ .two{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px;
+    background-color: #f8f9fa;
+ }
+ .two h4{
+   font-family: 'Noto Sans Display', sans-serif;
+   font-size: 20px;
+   font-weight:500 ;
+ }
+ .two h3{
+   font-family: 'Noto Sans Display', sans-serif;
+   font-size: 35px;
+   font-weight:400 ;
+ }
+ .two p{
+   color:#5e6267;
+   font-family: 'Noto Sans Display', sans-serif;
+   font-weight: 300;
+ }
+ #slideOne{
+    height: 460px;
+ }
+ .showyou{
+    margin-right: 180px;
+    margin-top: 130px;
+ }
+ 
+ .picsfortwo{
+    margin-top: 150px;
+ }
+ .slides{
+    margin-bottom: 100px;
+ }
+ .picsfortwo a{
+    text-decoration: none;
+    font-family: 'Noto Sans Display', sans-serif;
+    color: #1967d2;
+ }
+ .arrowbutton{
+   height:22px ;
+   width: 22px;
+   border: solid 1px #1967d2; ;
+   background-color: #1967d2; ;
+   border-radius:20px ;
+   padding: 2px;
+   padding-bottom: 4px;
+ }
+ .arrowicon{
+   color:#fff ;
+   font-size:10px ;
+ }
+ .slidethree{
+   margin-bottom: 200px;
+ }
+
+
+
+
+ /* The third square element  */
+
+ .three h3{
+   font-family: 'Noto Sans Display', sans-serif;
+   font-size: 37px;
+   font-weight:400 ;
+ }
+ .three p{
+    color: #5e6267;
+    font-family: 'Noto Sans Display', sans-serif;
+ }
+ .threeone{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 150px;
+ }
+ .perfomancepic{
+    margin-right: 300px;
+ }
+ #threeone{
+    height: 660px;
+    margin-top: 70px;
+ }
+.knowcustomers{
+    margin-top: 200px;
+}
+
+
+
+ .picanimation{
+    display: flex;
+    justify-content: center;
+ }
+ #threetwo{
+    height: 250px;
+ }
+ .threetwo{
+  margin-top: 270px;
+ }
+ .showbest{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+
+
+
+ .threetwo h2{
+   font-family: 'Noto Sans Display', sans-serif;
+   font-size: 47px;
+   font-weight:400 ;
+ }
+ .threetwo p{
+   margin-top: -30px;
+ }
+
+
+ .threethree{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 60px;
+ }
+ .threethreediv{
+    margin-right:140px;
+ }
+ .managenowbutton{
+    display: flex;
+    justify-content: center;
+ }
+ #dotpic{
+   height: 130px;
+ }
+
+
+
+ .dotpic{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 60px;
+ }
+ .answeredquestions{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+ }
+ .answeredquestions h2{
+   font-family: 'Noto Sans Display', sans-serif;
+   font-size: 36px;
+   font-weight:400 ;
+ }
+
+ .threefive{
+   display: grid;
+   justify-content: center;
+ }
+ .threefive div{
+   margin-bottom: 60px;
+ }
+
+ .threefive h4{
+    color: #1967d2;
+    font-family: 'Noto Sans Display', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+ }
+ .threefive a{
+    color: #1967d2;
+    text-decoration: none;
+ }
+ .questionfour{
+    display: flex;
+    justify-content: center;
+ }
+
+
+ .tohide{
+   display: none;
+ }
+
+ .faq{
+    height: 50px ;
+    width: 150px ;
+    background-color: #fff ;
+    color:#1a73e8 ;
+    font-weight: 600;
+    font-size: 16px;
+    border: solid 1px #1a73e8 ;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+ }
+
+
+
+ /* the footer element  */
+ .footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding-bottom: 40px;
+ }
+ .footer a{
+    color:#5f6368 ;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Noto Sans Display', sans-
+ }
+ .followus{
+   display: flex;
+    font-size: 14px;
+    margin-left: -1020px;
+    margin-bottom: 60px;
+ }
+ .followusicons{
+   margin-top: 27px;
+   
+ }
+ .followus p{
+   font-family: 'Noto Sans Display', sans-serif;
+   font-size: 17px;
+   margin-top: 28px;
+ }
+ .soshomedia{
+   font-size: 25px;
+   margin-left: 30px;
+ }
+
+
+
+ .links{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-bottom: 50px;
+ }
+ .links div{
+   margin-bottom: 25px;
+ }
+ .linksdiv{
+    margin-right: 110px;
+ }
+
+
+ #footergoogle{
+   margin-right: 40px;
+ }
+ .copyright{
+    display: flex;
+    margin-left: -380px;
+ }
+ .copyright div{
+   margin-right:40px ;
+   margin-top: 10px;
+ }
+ .help{
+   margin-left: 200px;
+ }
