@@ -4,7 +4,9 @@ body{
   box-sizing: border-box;
 }
 
-
+.phone-container{
+   display: none;
+}
 /* the navbar element  */
 
 .navbar{
@@ -532,7 +534,7 @@ font-family: 'Noto Sans Display', sans-serif;
    display: flex;
     font-size: 14px;
     margin-left: -1020px;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
  }
  .followusicons{
    margin-top: 27px;
@@ -547,14 +549,17 @@ font-family: 'Noto Sans Display', sans-serif;
    font-size: 25px;
    margin-left: 30px;
  }
-
+ .footerunderlinediv{
+   width: 69%;
+   border-bottom: 1px solid #dadce0;
+ }
 
 
  .links{
     display: flex;
     flex-direction: row;
     margin-top: 40px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
  }
  .links div{
    margin-bottom: 25px;
@@ -563,7 +568,13 @@ font-family: 'Noto Sans Display', sans-serif;
     margin-right: 110px;
  }
 
+ .lineone{
+  margin-bottom: 30px;
+ }
 
+ .linetwo{
+   margin-bottom: 20px;
+ }
  #footergoogle{
    margin-right: 40px;
  }
@@ -578,3 +589,352 @@ font-family: 'Noto Sans Display', sans-serif;
  .help{
    margin-left: 200px;
  }
+
+
+
+
+
+
+
+ @media only screen and (max-width:920px){
+
+   .container{
+      display: none;
+   }
+   .phone-container{
+      display: block;
+   }
+   p{
+      font-family: 'Noto Sans Display', sans-serif;
+   }
+   h2{
+      font-family: 'Noto Sans Display', sans-serif;
+   }
+   h3{
+      font-family: 'Noto Sans Display', sans-serif;
+   }
+
+
+   /* the top part  */
+   #plogo{
+      height:36px;
+      margin-top: 14px;
+      margin-left: 20px;
+      margin-bottom: 10px;
+   }
+   .profiletext h2{
+      margin-left: 70px;
+      font-size:23px ;
+      font-weight: 430;
+      margin-top: -1px;
+      color: #5f6368;
+   }
+
+
+   /* the first square element  */
+
+ 
+   .pstandout h2{
+      text-align: center;
+      font-size: 26px;
+      font-weight: 400;
+      margin-top: 60px;
+   }
+   #Pphotoone{
+      height: 450px;
+      margin-bottom: 15px;
+   }
+   .pphotoone{
+      display: flex;
+      justify-content: center;
+   }
+   .pcaptionone{
+      font-size: 16px;
+      text-align: center;
+      color:#5e6166 ;
+   }
+   .pbuttonmanage{
+      height: 50px ;
+      width: 150px ;
+      background-color: #1a73e8 ;
+      color:#fff ;
+      font-weight:500;
+      border: solid 1px #1a73e8 ;
+      border-radius: 3px;
+      font-family: 'Noto Sans Display', sans-serif;
+      font-size: 15px;
+      margin-top: 20px;
+  }
+   .pbuttonone{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 70px;
+   }
+
+
+
+
+   .freeeasy h3{
+      font-size: 15px;
+      font-weight:500 ;
+      color:#202124 ;
+      margin-top: 30px;
+   }
+   .freeeasy p{
+      color: #5f6368;
+      margin-top: 1px;
+   }
+   .freeeasy{
+      margin-top: 30px;
+      display: flex;
+      flex-direction:column;
+      justify-content: center;
+      align-items: center;
+   }
+   .panimationone{
+      display: flex;
+      justify-content: center;
+   }
+
+
+
+
+   .ptakecharge h3{
+      text-align: center;
+      font-size: 24px;
+      font-weight:400 ;
+   }
+   .ptakecharge p{
+      color: #5f6368;
+      text-align: center;
+      
+   }
+   #pphotoonetwo{
+      height: 440px;
+      margin-bottom: 30px;
+   }
+   .pphotoonetwo{
+      display: flex;
+      justify-content: center;
+   }
+   .pessentialone{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+   }
+   .pessentialone h3{
+       font-size: 19px;
+       font-weight: 500;
+   }
+   .pessentialone p{
+      font-weight: 400 ;
+      color: #5f6368;
+      margin-bottom: 150px;
+   }
+   .pmanagebutton{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 80px;
+   }
+
+
+
+
+   .peasilyconnect{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+   }
+
+
+
+
+   .mostparagraphs h3{
+      font-size: 24px;
+      font-weight: 400;
+   }
+   .mostparagraphs p{
+      color: #5f6368;
+   }
+   .mostparagraphs{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+   }
+
+
+
+   #pphotoonethree{
+      height: 440px;
+   }
+   .pphotoonethree{
+      display: flex;
+      justify-content: center;
+   }
+   .pdirectmessagesone h3{
+      font-size: 18px;
+      font-weight: 400 ;
+   } 
+   .pdirectmessagesone{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+   }
+   .pphotoonefour{
+      display: flex;
+      justify-content: center;
+      margin-top:150px ;
+      margin-bottom: 30px;
+   }
+
+
+   /* the second square element  */
+
+   .ptwo{
+      background-color: #f8f9fa;
+      padding-top: 50px;
+   }
+   .ptwodivs{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+   }
+   .ptwodivs p{
+      margin-top: -10px;
+      color: #5f6368;
+      font-weight: 400;
+   }
+   .pbuttontwo{
+      margin-top: 20px;
+      margin-bottom: 35px;
+   }
+   .ptwodivs h3{
+      font-size: 17px;
+      font-weight:500 ;
+   }
+   .ptwodivs a{
+      color: #1967d2;
+      text-decoration: none;
+      font-family: 'Noto Sans Display', sans-serif;
+      font-weight: 500;
+      margin-bottom: 60px;
+   }
+
+
+   /* the third square element  */
+
+
+   .panimationthree{
+      margin-top: 150px;
+   }
+   .claimpp h3{
+      font-size: 19px;
+      font-weight: 500;
+   }
+   .pbuttonthree{
+      margin-bottom: 25px;
+   }
+   .pquestionsthree{
+      margin-bottom: 30px;
+   }
+   .questionblue p{
+      display: none;
+   }
+   .questionblue h3{
+      font-size: 15px;
+      color: #1967d2;
+   }
+   .questionblue{
+      margin-bottom: 20px;
+   }
+   .pFAQs{
+      height: 47px ;
+      width: 150px ;
+      background-color: #fff ;
+      color:#1a73e8 ;
+      font-weight: 600;
+      font-size: 16px;
+      border: solid 1px #1a73e8 ;
+      border-radius: 6px;
+      margin-top: 10px;
+      margin-bottom: 100px;
+   }
+
+
+
+   /* the footer element  */
+   .pfollow{
+      margin-bottom: 40px;
+      margin-left: 10px;
+      display: flex;
+   }
+   .pfooter{
+      background-color: #f8f9fa;
+      padding-top: 20px;
+   }
+   .pfollowusicons{
+      display: flex;
+      margin-top: 13px;
+
+   }
+   .footerdiv h3{
+      color: #5f6368;
+      margin-left: 10px;
+      font-weight: 500;
+      font-size: 17px;
+   }
+   .footerdiv a{
+      text-decoration: none;
+      color: #5f6368;
+      font-weight: 400;
+      font-size: 19px;
+      margin-left: 10px;
+   }
+   .ponehide{
+      margin-top: 40px;
+   }
+   .ponehide div{
+      margin-bottom: 20px;
+   }
+   .ponehide{
+      display: none;
+   }
+   .poneshow{
+      margin-bottom: 60px;
+   }
+   .pfooterlogo{
+      margin-left: 10px;
+   }
+   .pfooterelements{
+      display: flex;
+      margin-left: 10px;
+   }
+   .pfooterelements p{
+      color: #5f6368;
+   }
+   .pfooterhelp{
+      display: flex;
+      margin-left: 10px;
+   }
+   .helptext{
+      margin-left: 20px;
+      margin-top: -20px;
+   }
+   
+
+   }
+
+
+
+
+ 
