@@ -38,7 +38,7 @@ body{
    color: #5e6267;
    font-family: 'Noto Sans Display', sans-serif;
    margin-right: 30px;
-   font-size: 15px;
+   font-size: 13px;
 }
 .navbartwo{
    text-decoration: underline;
@@ -56,11 +56,12 @@ body{
    box-shadow: 0px 2px 20px 0px rgba(94, 98, 101, 0.2);
    text-align: center;
    margin-top: 6px;
+   background-color: #fff;
 }
 .afterhover div{
    margin-bottom: 10px;
    padding-left: 40px;
-   padding-right: 10px;
+   padding-right: 15px;
 }
 .uparrow{
    display:none;
@@ -94,6 +95,9 @@ body{
 
 /* The first square element  */
 
+.one{
+   margin-top: 100px;
+}
 .oneone{
     display: flex;
     flex-direction: row;
@@ -101,12 +105,15 @@ body{
     margin-bottom: 100px;
 }
 .standout{
-    margin-top: 120px;
+    margin-top: 105px;
     margin-right: 660px;
 }
 #oneonepic{
     height: 580px;
-    margin-top: 85px;
+    margin-top: 45px;
+    box-shadow: 0px 10px 70px 10px #dadce0;
+    border-radius: 25px;
+   
 }
 .standout h2{
 font-family: 'Noto Sans Display', sans-serif;
@@ -129,6 +136,10 @@ font-family: 'Noto Sans Display', sans-serif;
     border-radius: 6px;
     font-family: 'Noto Sans Display', sans-serif;
     font-size: 14px;
+}
+.buttonmanage:hover{
+   background-color: #0c56b7;
+   box-shadow: 0px 10px 40px 5px #dadce0;
 }
 
 
@@ -239,6 +250,8 @@ font-family: 'Noto Sans Display', sans-serif;
    color:#5e6267;
     font-family: 'Noto Sans Display', sans-serif;
 }
+
+
 .essentialone p{
     color: #5e6267;  
 }
@@ -250,6 +263,36 @@ font-family: 'Noto Sans Display', sans-serif;
 .essential div{
    margin-bottom: 60px;
 }
+.qessential{
+   display: flex;
+   flex-direction: row;
+}
+.essentiallineone{
+   border-left: 3px solid #1967d2;
+   height: 115px;
+   margin-right: 10px;
+   margin-top: 30px;
+}
+.essentialtwoline{
+   border-left: 3px solid #c4c3c3;
+   margin-right: 10px;
+   height: 40px;
+   margin-top: 20px;  
+}
+.essentialtop{
+   margin-top: -130px;
+}
+.essentialthree{
+   margin-top: -97px;
+}
+
+
+
+
+
+
+
+
 #floatingpic{
     height: 600px;
 }
@@ -278,6 +321,7 @@ font-family: 'Noto Sans Display', sans-serif;
 
 
 
+
 .onesix{
     display: flex;
     justify-content: center;
@@ -300,6 +344,28 @@ font-family: 'Noto Sans Display', sans-serif;
     margin-top: 40px ;
 
 }
+
+
+.postflex{
+   display: flex;
+   flex-direction: row;
+}
+.postlines{
+   border-left: 3px solid #c4c3c3;
+   margin-right: 10px;
+   height: 40px;
+   margin-top: 20px;  
+}
+.posttwoline{
+   border-left: 3px solid #1967d2;
+   margin-right: 10px;
+   height: 100px;
+   margin-top: 25px;  
+}
+
+
+
+
 .createposts{
     margin-top: 150px;
 }
@@ -471,7 +537,10 @@ font-family: 'Noto Sans Display', sans-serif;
    font-family: 'Noto Sans Display', sans-serif;
    font-size: 36px;
    font-weight:400 ;
+   margin-bottom: 100px;
  }
+
+
 
  .threefive{
    display: grid;
@@ -500,6 +569,44 @@ font-family: 'Noto Sans Display', sans-serif;
  .tohide{
    display: none;
  }
+ .questiononediv{
+   display: flex;
+   justify-content: space-between;
+   margin-top: -40px;
+ }
+ .iconcomponent{
+   margin-top: 26px;
+   margin-left: 650px;
+   margin-bottom: -100px;
+ }
+ .iconarrow{
+   color:#1967d2;;
+ }
+ .secondicon{
+   margin-left: 200px;
+ }
+ .tohidep{
+   margin-top: -90px;
+ }
+ .tohidep2{
+   margin-top: -8-0px;
+ }
+ .questionslinethree{
+   margin-top: -300px;
+ }
+
+
+
+
+ /* the lines underneath  */
+
+ .qlines{
+   border-bottom: 1px solid #dadce0;
+   margin-top: -250px;
+ }
+ 
+
+
 
  .faq{
     height: 50px ;
@@ -532,9 +639,9 @@ font-family: 'Noto Sans Display', sans-serif;
  }
  .followus{
    display: flex;
-    font-size: 14px;
-    margin-left: -1020px;
-    margin-bottom: 20px;
+   font-size: 14px;
+   margin-left: -1020px;
+   margin-bottom: 20px;
  }
  .followusicons{
    margin-top: 27px;
@@ -550,7 +657,6 @@ font-family: 'Noto Sans Display', sans-serif;
    margin-left: 30px;
  }
  .footerunderlinediv{
-   width: 69%;
    border-bottom: 1px solid #dadce0;
  }
 
@@ -558,7 +664,7 @@ font-family: 'Noto Sans Display', sans-serif;
  .links{
     display: flex;
     flex-direction: row;
-    margin-top: 40px;
+    margin-top: 80px;
     margin-bottom: 40px;
  }
  .links div{
@@ -575,12 +681,22 @@ font-family: 'Noto Sans Display', sans-serif;
  .linetwo{
    margin-bottom: 20px;
  }
+ .linksline{
+   border-bottom: 1px solid #dadce0;
+   width: 100%;
+ }
+ .blacklinks a{
+   color: black;
+ }
+
+
+
  #footergoogle{
    margin-right: 40px;
  }
  .copyright{
     display: flex;
-    margin-left: -380px;
+    margin-top: 20px;
  }
  .copyright div{
    margin-right:40px ;
@@ -589,14 +705,36 @@ font-family: 'Noto Sans Display', sans-serif;
  .help{
    margin-left: 200px;
  }
+ #footerselect{
+   background-color: #f8f9fa ;
+   width: 400px;
+   border: 1px solid #f8f9fa ;
+   font-family: 'Noto Sans Display', sans-serif;
+ }
 
 
 
 
 
 
+/* 
+ @media only screen and (max-width:380px){
 
- @media only screen and (max-width:920px){
+  .ptwodivs img{
+   height: 200px ;
+  }
+  .pphotothree img{
+   height: 200px;
+  }
+  .panimationthree img{
+   height: 20px;
+  }
+  .pphotoone img{
+   box-shadow: 10px 400px 165px rgb(210, 210, 211);
+  }
+} */
+
+ @media only screen and (max-width:1020px){
 
    .container{
       display: none;
@@ -614,6 +752,13 @@ font-family: 'Noto Sans Display', sans-serif;
       font-family: 'Noto Sans Display', sans-serif;
    }
 
+   body{
+      margin: 0;
+     padding:0;
+     box-sizing: border-box;
+   }
+   
+
 
    /* the top part  */
    #plogo{
@@ -623,12 +768,34 @@ font-family: 'Noto Sans Display', sans-serif;
       margin-bottom: 10px;
    }
    .profiletext h2{
-      margin-left: 70px;
+      margin-left: 25px;
       font-size:23px ;
-      font-weight: 430;
+      font-weight: 400;
       margin-top: -1px;
       color: #5f6368;
    }
+   .ptopline{
+      border-bottom: 1px solid #dadce0;
+      margin-bottom: 10px;
+   }
+   .ptop{
+      padding-bottom: 1px;
+      box-shadow: 10px 4px 15px rgb(210, 210, 211);
+   }
+   .pprofile{
+      display: flex;
+   }
+   .profileicon{
+      margin-top: 6px;
+      margin-left: 30px;
+   }
+   .barsicon{
+      font-size: 19px;
+      font-weight: 100;
+      color: #5f6368;
+   }
+
+
 
 
    /* the first square element  */
@@ -638,11 +805,13 @@ font-family: 'Noto Sans Display', sans-serif;
       text-align: center;
       font-size: 26px;
       font-weight: 400;
-      margin-top: 60px;
+      margin-top: 30px;
    }
    #Pphotoone{
-      height: 450px;
+      height: 430px;
       margin-bottom: 15px;
+      border-radius: 15px;
+      box-shadow: 10px 1px 40px 10px #dadce0;
    }
    .pphotoone{
       display: flex;
@@ -749,7 +918,7 @@ font-family: 'Noto Sans Display', sans-serif;
       align-items: center;
       text-align: center;
    }
-
+ ""
 
 
 
@@ -869,6 +1038,11 @@ font-family: 'Noto Sans Display', sans-serif;
       margin-top: 10px;
       margin-bottom: 100px;
    }
+   .plineone{
+      border-bottom: 1px solid #c4c3c3;
+      margin-top: 40px;
+      margin-bottom: 40px;
+   }
 
 
 
@@ -930,7 +1104,68 @@ font-family: 'Noto Sans Display', sans-serif;
       margin-left: 20px;
       margin-top: -20px;
    }
+   .plineoneq{
+      border-bottom: 1px solid #c4c3c3;
+      margin-top: 5px;
+      margin-bottom: 20px;
+   }
+
+
+   .floorstickyelement{
+      display: flex;
+      padding-top: 0px;
+      padding-bottom: 5px;
+      position: sticky;
+      bottom: 0px;
+      background-color: #fff;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 3px 3px 10px rgb(105, 110, 127);
+   }
+   .stickybutton{
+      margin-top: -10px;
+   }
+   .pfooterselect select{
+      margin-bottom: 30px;
+   }
+   #pfooterselect{
+      background-color: #f8f9fa ;
+      width: 200px;
+      border: 1px solid #f8f9fa ;
+      font-family: 'Noto Sans Display', sans-serif;
+   }
    
+
+   }
+
+
+   @media only screen and (max-width:1100px){
+
+      .standout{
+         margin-right: 200px;
+      }
+
+   }
+   @media only screen and (max-width:1300px){
+
+      .standout{
+         margin-right: 300px;
+      }
+
+   }
+   
+   @media only screen and (max-width:1500px){
+
+      .standout{
+         margin-right: 400px;
+      }
+
+   }
+   @media only screen and (max-width:1500px){
+
+      .standout{
+         margin-right: 400px;
+      }
 
    }
 
