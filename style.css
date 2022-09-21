@@ -88,6 +88,7 @@ body{
    font-family: 'Noto Sans Display', sans-serif;
    color: #1a73e8;
    margin-right: 15px;
+   cursor: pointer;
 }
 
 
@@ -918,10 +919,6 @@ font-family: 'Noto Sans Display', sans-serif;
       align-items: center;
       text-align: center;
    }
- ""
-
-
-
    .mostparagraphs h3{
       font-size: 24px;
       font-weight: 400;
