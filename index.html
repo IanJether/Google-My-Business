@@ -381,72 +381,66 @@
                     <h2>Your questions, answered</h2>
                 </div>
             </div>
-            <div class="threefive">
-                <div class="questionslineone qlines">
 
-                </div>
-                <div class="questionone">
+
+            <div class="threefive">
+               
+                <div class="questionone linesz">
                    <div class="questiononediv">
                         <div class="textcomponentq">
-                            <h4>Is a Business Profile on Google free?</h4>
+                            <h4 onclick=" handleHiddenOne()">Is a Business Profile on Google free?</h4>
                         </div>
+                      
                         <div class="iconcomponent">
-                            <span class="iconarrow ifhover"><i class="fa-solid fa-chevron-down"></i></span>
+                            <button id="arrowbuttonone" onclick=" handleHiddenOne()"><span class="iconarrow ifhover" ><i class="fa-solid fa-chevron-down"></i></span></button>
                         </div>
                    </div>
-                   <div class="tohidep" id="tohidetext">
-                    <p class="tohide" id="tohide">Yes, it‘s free to create your Business
-                        Profile on Google. Create your profile
-                         business <br> from Google Search and Maps to 
-                         start reaching more customers.
-                    </p>
+                   <div id="tohidepone">
+                        <p>Yes, it‘s free to create your Business
+                            Profile on Google. Create your profile
+                            business <br> from Google Search and Maps to 
+                            start reaching more customers.
+                        </p>
                    </div>
                 </div>
-                <div class="questionslinetwo qlines">
-                    
-                </div>
-                <div class="questiontwo">
+              
+                <div class="questiontwo linesz">
                     <div class="questiononediv" >
                         <div class="textcomponentq">
-                            <h4>My business doesn’t have a storefront. Can I still have a Business Profile?</h4>
+                            <h4 onclick="handlehiddentwo()">My business doesn’t have a storefront. Can I still have a Business Profile?</h4>
                         </div>
                         <div class="iconcomponent secondicon">
-                            <span class="iconarrow ifhover"><i class="fa-solid fa-chevron-down"></i></span>
+                            <button id="arrowbuttontwo" onclick="handlehiddentwo()"><span class="iconarrow" ><i class="fa-solid fa-chevron-down"></i></span></button>
                         </div>
                     </div>
-                    <div class="tohidep tohidep2" id="tohidetext">
-                        <p class="tohide">Yes, you can have a profile if your business doesn’t have a physical address as
+                    <div id="tohideptwo">
+                        <p>Yes, you can have a profile if your business doesn’t have a physical address as
                             long as you make in-person contact with <br> customers. You can also have a profile if you’re a hybrid 
                             business that serves customers at your business address and visits <br> or delivers directly to customers.
                              You may also have a profile if you’re a service-area business that visits or delivers to <br> customers directly,
                               but doesn't serve customers at its business address, like a plumber or cleaning service.
                        </p>
-                       <a href="" class="tohide">Learn how to claim and verify your profile if you’re a service-area business</a> <span></span>
+                       <a href="">Learn how to claim and verify your profile if you’re a service-area business <span class="diag-a"><i class="fa-solid fa-arrow-up-right"></i></span></a>
                     </div>
                 </div>
-                <div class="questionslinethree qlines">
-                    
-                </div>
-                <div class="questionthree">
+            
+                <div class="questionthree linesz">
                     <div class="questiononediv">
                         <div class="textcomponent">
-                            <h4>Do I need to download an app to create and manage my profile?</h4>
+                            <h4 onclick="handlehiddenthree()">Do I need to download an app to create and manage my profile?</h4>
                         </div>
                         <div class="iconcomponent secondicon">
-                            <span class="iconarrow ifhover"><i class="fa-solid fa-chevron-down"></i></span>
+                            <button id="arrowbuttonthree" onclick="handlehiddenthree()"><span class="iconarrow ifhover" ><i class="fa-solid fa-chevron-down"></i></span></button>
                         </div>
                    </div>
-                   <div class="tohidep" id="tohidetext">
-                         
-                    <p class="tohide">You can use the Google Maps app to manage your Business Profile on your mobile device. On your desktop,
-                        you can manage <br> directly from Google Search in the browser.
-                   </p>
-                   <a href="" class="tohide">Learn more about updating your profile from Search and Maps</a> <span></span>
+                   <div id="tohidepthree"> 
+                        <p>You can use the Google Maps app to manage your Business Profile on your mobile device. On your desktop,
+                                you can manage <br> directly from Google Search in the browser.
+                        </p>
+                        <a href="">Learn more about updating your profile from Search and Maps <span class="diag-a"><i class="fa-solid fa-arrow-up-right"></i></span> </a> 
                    </div>
                 </div>
-                <div class="questionslineone qlines">
-                    
-                </div>
+    
                 <div class="questionfour">
                     <button class="faq"
                     onclick="window.location.href ='https://www.google.com/business/faq/'"
@@ -474,47 +468,47 @@
             </div>
             <div class="linkscontainer">
                 <div class="linksline"></div> 
-                <div class="links">
-                <div class="lineone linksdiv">
-                    <div class="blacklinks"><a href="">About Business Profile</a>  <br> </div>
-                    <div><a href="">Restaurant</a> <br></div>
-                    <div><a href="">Retail</a> <br></div>
-                    <div><a href="">Services</a> <br></div>
-                    <div><a href="">Resources</a> <br></div>
-                    <div><a href="">FAQ</a> <br></div>
-                </div>
-                <div class="linetwo linksdiv">
-                    <div class="blacklinks"><a href="">Learning & Support</a> <br></div>
-                    <div><a href="">Help Center</a> <br>  </div>
-                    <div><a href="">Report a Spam Call</a> <br></div>
-                    <div><a href="">The Digital Garage</a> <br></div>
-                    <div><a href="">Primer</a> <br></div>
-                    <div><a href="">Join User Studies</a> <br></div>
-                    <div><a href="">Skillshop</a> <br></div>
-                </div>
-                <div class="linethree linksdiv">
-                    <div class="blacklinks"><a href="">Developer & partners</a> <br></div>
-                    <div><a href="">Business Profile APIa</a> <br></div>
-                    <div><a href="">Google Developers Site</a> <br></div>
-                    <div><a href="">Google Places API</a> <br></div>
-                    <div><a href="">Business Profile Partners </a> <br></div>
-                </div>
-                <div class="linefour linksdiv">
-                    <div class="blacklinks"><a href="">Related products</a> <br></div>
-                    <div><a href="">Google Ads</a> <br></div>
-                    <div><a href="">Local Services</a> <br></div>
-                    <div><a href="">Google Workspace</a> <br></div>
-                    <div><a href="">Business Messages</a> <br></div>
-                </div>
-                <div class="linefive">
-                <div class="blacklinks"> <a href="">More solutions from Google</a> <br></div>
-                <div> <a href="">AdSense</a> <br></div>
-                <div> <a href="">Google for Small Business</a> <br></div>
-                <div> <a href="">Think with Google</a> <br></div>
-                <div> <a href="">re: Work with Google</a> <br></div>
-                <div> <a href="">Test My Site</a> <br></div>
-                </div>
-            </div>
+                    <div class="links">
+                        <div class="lineone linksdiv">
+                            <div class="blacklinks"><a href="">About Business Profile</a>  <br> </div>
+                            <div><a href="">Restaurant</a> <br></div>
+                            <div><a href="">Retail</a> <br></div>
+                            <div><a href="">Services</a> <br></div>
+                            <div><a href="">Resources</a> <br></div>
+                            <div><a href="">FAQ</a> <br></div>
+                        </div>
+                        <div class="linetwo linksdiv">
+                            <div class="blacklinks"><a href="">Learning & Support</a> <br></div>
+                            <div><a href="">Help Center</a> <br>  </div>
+                            <div><a href="">Report a Spam Call</a> <br></div>
+                            <div><a href="">The Digital Garage</a> <br></div>
+                            <div><a href="">Primer</a> <br></div>
+                            <div><a href="">Join User Studies</a> <br></div>
+                            <div><a href="">Skillshop</a> <br></div>
+                        </div>
+                        <div class="linethree linksdiv">
+                            <div class="blacklinks"><a href="">Developer & partners</a> <br></div>
+                            <div><a href="">Business Profile APIa</a> <br></div>
+                            <div><a href="">Google Developers Site</a> <br></div>
+                            <div><a href="">Google Places API</a> <br></div>
+                            <div><a href="">Business Profile Partners </a> <br></div>
+                        </div>
+                        <div class="linefour linksdiv">
+                            <div class="blacklinks"><a href="">Related products</a> <br></div>
+                            <div><a href="">Google Ads</a> <br></div>
+                            <div><a href="">Local Services</a> <br></div>
+                            <div><a href="">Google Workspace</a> <br></div>
+                            <div><a href="">Business Messages</a> <br></div>
+                        </div>
+                        <div class="linefive">
+                            <div class="blacklinks"> <a href="">More solutions from Google</a> <br></div>
+                            <div> <a href="">AdSense</a> <br></div>
+                            <div> <a href="">Google for Small Business</a> <br></div>
+                            <div> <a href="">Think with Google</a> <br></div>
+                            <div> <a href="">re: Work with Google</a> <br></div>
+                            <div> <a href="">Test My Site</a> <br></div>
+                        </div>
+                    </div>
             <div class="linksline"></div> 
            </div>
         
@@ -555,6 +549,48 @@
 
 
     <div class="phone-container">
+
+        <div class="pbuttonicon">
+            <div class="ptop ptop2">
+                <div class="plogo">
+                    <img src="Pictures/google logo.png" alt="" id="plogo" >
+                </div>
+                <div class="ptopline">
+    
+                </div>
+                <div class="pprofile">
+                    <div class="profileicon">
+                        <span class="barsicon" onclick="handleListButtonBack()"><i class="fa-solid fa-bars"></i></span>
+                    </div>
+                    <div class="profiletext">
+                        <h2>Business Profile</h2> 
+                    </div>
+                </div>
+            </div>
+            <div class="other-components">
+                <div class="first-square"><p>Overview</p></div>
+                <div class="pbusiness-sol">
+                    <p>Business Solutions <span style="margin-left: 10px;"><i class="fa-solid fa-chevron-down"></i></span></p> 
+                </div>
+                <div class="resret">
+                    <div><p>Restaurants</p></div>
+                    <div><p>Retail</p></div>
+                    <div><p>Services</p></div>
+                </div>
+                <div><p>Resources</p></div>
+                <div><p>FAQS</p></div>
+
+                <div class="pbottomicon">
+                    <div><button class="pbuttonmanage">Manage now</button></div>
+                    <div> <button class="s-i-button"> sign in </button></div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
         <div class="ptop">
             <div class="plogo">
                 <img src="Pictures/google logo.png" alt="" id="plogo" >
@@ -564,7 +600,7 @@
             </div>
             <div class="pprofile">
                 <div class="profileicon">
-                    <span class="barsicon"><i class="fa-solid fa-bars"></i></span>
+                    <span class="barsicon" onclick="handleListButton()"><i class="fa-solid fa-bars"></i></span>
                 </div>
                 <div class="profiletext">
                     <h2>Business Profile</h2>

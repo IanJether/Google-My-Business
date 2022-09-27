@@ -604,8 +604,9 @@ font-family: 'Noto Sans Display', sans-serif;
    font-family: 'Noto Sans Display', sans-serif;
    font-size: 36px;
    font-weight:400 ;
-   margin-bottom: 100px;
+   margin-bottom: 40px;
  }
+
 
 
 
@@ -614,7 +615,9 @@ font-family: 'Noto Sans Display', sans-serif;
    justify-content: center;
  }
  .threefive div{
-   margin-bottom: 60px;
+  /* margin-bottom: 60px; */
+  padding-top: 13px;
+  padding-bottom: 13px;
  }
 
  .threefive h4{
@@ -622,10 +625,12 @@ font-family: 'Noto Sans Display', sans-serif;
     font-family: 'Noto Sans Display', sans-serif;
     font-size: 20px;
     font-weight: 400;
+    cursor: pointer;
  }
  .threefive a{
     color: #1967d2;
     text-decoration: none;
+    font-family: 'Noto Sans Display', sans-serif;
  }
  .questionfour{
     display: flex;
@@ -633,34 +638,68 @@ font-family: 'Noto Sans Display', sans-serif;
  }
 
 
- .tohide{
-   display: none;
- }
+ 
  .questiononediv{
    display: flex;
    justify-content: space-between;
-   margin-top: -40px;
+
  }
  .iconcomponent{
-   margin-top: 26px;
-   margin-left: 650px;
-   margin-bottom: -100px;
+  
  }
  .iconarrow{
-   color:#1967d2;;
+   color:#1967d2;
+   font-size: 19px;
+   cursor: pointer;
+ }
+ .iconarrowopp{
+   display: none;
+   color:#1967d2;
+   font-size: 19px;
  }
  .secondicon{
-   margin-left: 200px;
+   margin-left: 350px;
  }
- .tohidep{
-   margin-top: -90px;
+ #tohidepone{
+   display: none;
+   margin-top: -30px;
  }
- .tohidep2{
-   margin-top: -8-0px;
+ #tohideptwo{
+   display: none;
+   margin-top: -30px;
  }
- .questionslinethree{
-   margin-top: -300px;
+ #tohidepthree{
+   display: none;
+   margin-top: -30px;
  }
+#arrowbuttonone{
+   background-color: #fff;
+   border: 1px solid #fff;
+   height: 40px;
+   width: 30px;
+}
+#arrowbuttontwo{
+   background-color: #fff;
+   border: 1px solid #fff;
+   height: 40px;
+   width: 30px;
+}
+#arrowbuttonthree{
+   background-color: #fff;
+   border: 1px solid #fff;
+   height: 40px;
+   width: 30px;
+}
+
+
+.linesz{
+   border-top:  1px solid #dadce0;
+   border-bottom: 1px solid #dadce0;
+   margin-top: -1px;
+}
+.diag-a{
+   font-size: large;
+}
 
 
 
@@ -684,8 +723,8 @@ font-family: 'Noto Sans Display', sans-serif;
     font-size: 16px;
     border: solid 1px #1a73e8 ;
     border-radius: 6px;
-    margin-top: 10px;
-    margin-bottom: 100px;
+    margin-top: 40px;
+    margin-bottom: 140px;
  }
 
 
@@ -825,6 +864,56 @@ font-family: 'Noto Sans Display', sans-serif;
      box-sizing: border-box;
    }
    
+
+   /* the button icon part when pressed  */
+
+
+   .other-components div{
+      margin-bottom: 30px;
+      padding-left: 15px;
+   }
+   .other-components p{
+      font-size: 14px;
+      color: #5f6368;
+   }
+   .first-square{
+      margin-top: 70px;
+   }
+   .resret{
+      margin-left: 20px;
+   }
+   .pbuttonicon{
+      display: none;
+      height: 100vh;
+      width: 80%;
+      border: 1px solid #fff;
+      position: absolute;
+      background-color: #fff;
+      box-shadow: 100px 0px 10px rgb(221, 221, 221);
+   }
+   .ptop2{
+      box-shadow: 0px 0px 0px black;
+   }
+   .pbottomicon{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: sticky;
+      margin-top: 120px;
+      margin-left: -20px;
+   }
+   .s-i-button{
+      height:40px ;
+      width:90px ;
+      color: #1a73e8;
+      background-color:white ;
+      border: 1px solid white;
+      font-size: 17px;
+      font-weight: 500;
+      font-family: 'Noto Sans Display', sans-serif;
+      margin-top: -20px;
+   }
 
 
    /* the top part  */
